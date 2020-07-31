@@ -1,0 +1,8 @@
+-lib cf-devkit-hx
+-cp src
+-D doc-gen
+-xml build/js.xml
+--macro include('com')
+--no-output
+--interp
+-D useStarling

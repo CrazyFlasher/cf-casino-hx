@@ -1,0 +1,7 @@
+## JavaScript
+-main TestMain
+-lib cf-devkit-hx
+-cp src
+-cp test
+-js build/js_test.js
+-D useStarling

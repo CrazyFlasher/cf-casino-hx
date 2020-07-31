@@ -1,0 +1,17 @@
+{
+  "name": "cf-casino-hx",
+  "url": "https://github.com/CrazyFlasher/cf-casino-hx",
+  "license": "MIT",
+  "tags": [
+  ],
+  "description": "CF Casino Haxe SDK",
+  "version": "0.0.1",
+  "releasenote": "Initial",
+  "contributors": [
+    "CrazyFlasher"
+  ],
+  "classPath": "src",
+  "dependencies": {
+    "cf-devkit-hx": "git:https://github.com/CrazyFlasher/cf-devkit-hx.git"
+  }
+}
