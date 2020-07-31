@@ -13,6 +13,8 @@ import com.cf.casino.mediators.AbstractAppMediator;
 import com.domwires.core.mvc.message.IMessage;
 import motion.Actuate;
 import motion.actuators.IGenericActuator;
+import com.cf.slot.mediators.AbstractReelsMediator.ReelsMediatorMessageType;
+import com.cf.slot.mediators.AbstractBigWinMediator.BigWinMediatorMessageType;
 
 class WinsMediator extends AbstractAppMediator
 {

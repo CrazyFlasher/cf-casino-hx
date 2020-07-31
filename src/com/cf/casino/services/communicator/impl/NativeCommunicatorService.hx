@@ -1,5 +1,8 @@
 package com.cf.casino.services.communicator.impl;
 
+import com.cf.casino.models.state.enums.RoundState;
+import com.domwires.core.mvc.message.IMessage;
+import com.cf.casino.models.state.IStateModelImmutable;
 import com.cf.casino.services.http.HTTPServiceMessageType;
 import com.cf.casino.services.http.IHTTPService;
 import com.domwires.core.factory.IAppFactory;

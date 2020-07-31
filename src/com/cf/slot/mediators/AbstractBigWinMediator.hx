@@ -5,6 +5,8 @@ import com.cf.slot.models.win.ISlotWinsModelImmutable;
 import com.cf.slot.config.ISlotConfig;
 import com.cf.casino.mediators.AbstractAppMediator;
 import com.domwires.core.mvc.message.IMessage;
+import com.cf.slot.mediators.WinsMediator.WinsMediatorMessageType;
+import com.cf.slot.mediators.AbstractReelsMediator.ReelsMediatorMessageType;
 
 class AbstractBigWinMediator extends AbstractAppMediator
 {

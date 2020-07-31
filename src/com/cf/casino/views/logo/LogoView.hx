@@ -1,5 +1,6 @@
 package com.cf.casino.views.logo;
 
+import starling.utils.Align;
 import com.cf.devkit.display.Stage;
 import com.cf.devkit.bundle.IDisplayObject;
 import openfl.geom.Point;

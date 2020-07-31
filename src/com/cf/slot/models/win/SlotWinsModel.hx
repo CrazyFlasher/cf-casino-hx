@@ -7,14 +7,14 @@ import com.cf.casino.models.win.IWinsModel;
 import com.cf.slot.models.win.singleWin.ISlotSingleWinModelImmutable;
 import com.cf.casino.models.win.WinsModel;
 import com.domwires.core.utils.ArrayUtils;
-import com.ganapati.casino.models.win.IWinsModel;
-import com.ganapati.casino.models.win.singleWin.ISingleWinModel;
-import com.ganapati.casino.models.win.singleWin.SingleWinVo;
-import com.ganapati.casino.models.win.WinsModel;
-import com.ganapati.casino.models.win.WinsVo;
-import com.ganapati.slot.models.win.singleWin.ISlotSingleWinModel;
-import com.ganapati.slot.models.win.singleWin.ISlotSingleWinModelImmutable;
-import com.ganapati.slot.models.win.singleWin.SlotSingleWinVo;
+import com.cf.casino.models.win.IWinsModel;
+import com.cf.casino.models.win.singleWin.ISingleWinModel;
+import com.cf.casino.models.win.singleWin.SingleWinVo;
+import com.cf.casino.models.win.WinsModel;
+import com.cf.casino.models.win.WinsVo;
+import com.cf.slot.models.win.singleWin.ISlotSingleWinModel;
+import com.cf.slot.models.win.singleWin.ISlotSingleWinModelImmutable;
+import com.cf.slot.models.win.singleWin.SlotSingleWinVo;
 import haxe.ds.ReadOnlyArray;
 
 @:keep

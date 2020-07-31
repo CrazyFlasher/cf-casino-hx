@@ -5,10 +5,10 @@ import com.cf.slot.models.reels.singleReel.ISingleReelModel;
 import com.cf.slot.config.ISlotConfig;
 import com.cf.casino.models.AbstractAppModelContainer;
 import haxe.ds.ReadOnlyArray;
-import com.ganapati.slot.config.ISlotConfig;
-import com.ganapati.casino.models.AbstractAppModelContainer;
-import com.ganapati.slot.models.reels.singleReel.ISingleReelModel;
-import com.ganapati.slot.models.reels.singleReel.ISingleReelModelImmutable;
+import com.cf.slot.config.ISlotConfig;
+import com.cf.casino.models.AbstractAppModelContainer;
+import com.cf.slot.models.reels.singleReel.ISingleReelModel;
+import com.cf.slot.models.reels.singleReel.ISingleReelModelImmutable;
 
 @:keep
 class ReelsModel extends AbstractAppModelContainer implements IReelsModel

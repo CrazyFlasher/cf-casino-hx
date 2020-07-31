@@ -1,5 +1,7 @@
 package com.cf.casino.services.communicator;
 
+import com.cf.casino.models.payload.IPayloadModelImmutable;
+import com.cf.casino.models.texts.ITextsModel;
 import com.cf.devkit.services.AbstractService;
 import haxe.io.Error;
 

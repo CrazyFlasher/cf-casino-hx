@@ -11,6 +11,7 @@ import com.cf.casino.mediators.AbstractAppMediator;
 import com.cf.slot.config.ISlotConfig;
 import com.domwires.core.mvc.message.IMessage;
 import openfl.geom.Point;
+import com.cf.slot.mediators.WinsMediator.WinsMediatorMessageType;
 
 class AbstractPaylinesMediator extends AbstractAppMediator
 {

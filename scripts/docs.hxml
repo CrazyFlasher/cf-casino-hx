@@ -2,7 +2,8 @@
 -cp src
 -D doc-gen
 -xml build/js.xml
---macro include('com')
+--macro include('com.cf')
 --no-output
 --interp
+--remap flash:openfl
 -D useStarling

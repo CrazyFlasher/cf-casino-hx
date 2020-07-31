@@ -2,7 +2,6 @@ package com.cf.casino.models.win;
 
 import com.cf.casino.models.win.singleWin.SingleWinVo;
 import com.domwires.core.utils.ArrayUtils;
-import com.ganapati.casino.models.win.singleWin.SingleWinVo;
 
 class WinsVo extends AbstractVo
 {

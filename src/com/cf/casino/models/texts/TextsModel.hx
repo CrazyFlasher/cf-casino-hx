@@ -1,5 +1,6 @@
 package com.cf.casino.models.texts;
 
+import com.cf.devkit.trace.Trace;
 import com.domwires.core.mvc.model.AbstractModel;
 
 class TextsModel extends AbstractModel implements ITextsModel

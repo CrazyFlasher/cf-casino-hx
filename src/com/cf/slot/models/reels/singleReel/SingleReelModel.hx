@@ -7,15 +7,15 @@ import com.cf.slot.models.reels.singleReel.symbol.ISymbolModelImmutable;
 import com.cf.slot.models.reels.singleReel.symbol.ISymbolModel;
 import com.cf.slot.config.ISlotConfig;
 import com.cf.casino.models.AbstractAppModelContainer;
-import com.ganapati.slot.utils.SymbolIdToChar;
-import com.ganapati.devkit.trace.Trace;
+import com.cf.slot.utils.SymbolIdToChar;
+import com.cf.devkit.trace.Trace;
 import haxe.ds.ReadOnlyArray;
-import com.ganapati.slot.config.ISlotConfig;
-import com.ganapati.casino.models.AbstractAppModelContainer;
+import com.cf.slot.config.ISlotConfig;
+import com.cf.casino.models.AbstractAppModelContainer;
 import com.domwires.core.utils.ArrayUtils;
-import com.ganapati.slot.models.reels.singleReel.symbol.ISymbolModel;
-import com.ganapati.slot.models.reels.singleReel.symbol.ISymbolModelImmutable;
-import com.ganapati.slot.models.reels.singleReel.symbol.SymbolVo;
+import com.cf.slot.models.reels.singleReel.symbol.ISymbolModel;
+import com.cf.slot.models.reels.singleReel.symbol.ISymbolModelImmutable;
+import com.cf.slot.models.reels.singleReel.symbol.SymbolVo;
 
 @:keep
 class SingleReelModel extends AbstractAppModelContainer implements ISingleReelModel

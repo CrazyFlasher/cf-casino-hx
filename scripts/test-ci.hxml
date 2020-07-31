@@ -6,4 +6,5 @@
 -js build/js_test.js
 #-lib hxnodejs - issue https://github.com/HaxeFoundation/hxnodejs/issues/118
 -lib hxnodejs
+--remap flash:openfl
 -D useStarling
