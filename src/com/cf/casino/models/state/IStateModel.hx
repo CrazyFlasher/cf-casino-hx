@@ -1,6 +1,7 @@
 package com.cf.casino.models.state;
 
 import com.domwires.core.mvc.model.IModel;
+import com.cf.casino.models.state.StateModel;
 
 interface IStateModel extends IStateModelImmutable extends IModel
 {

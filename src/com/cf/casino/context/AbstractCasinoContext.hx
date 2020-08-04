@@ -36,6 +36,8 @@ import com.domwires.core.mvc.message.IMessage;
 
 class AbstractCasinoContext extends BaseContext implements IBaseContext
 {
+    private var casinoConfig:ICasinoConfig;
+
     private var textsModel:ITextsModel;
 
     private var appStateModel:IStateModel;
@@ -74,6 +76,18 @@ class AbstractCasinoContext extends BaseContext implements IBaseContext
         mediatorFactory.mapToValue(IUIMediator, uiMediator);
 
         addMediator(uiMediator);
+    }
+
+    override private function createConfig():Void
+    {
+        super.createConfig();
+
+        casinoConfig = cast appConfig;
+
+        modelFactory.mapToValue(ICasinoConfig, casinoConfig);
+        mediatorFactory.mapToValue(ICasinoConfig, casinoConfig);
+        viewFactory.mapToValue(ICasinoConfig, casinoConfig);
+        factory.mapToValue(ICasinoConfig, casinoConfig);
     }
 
     override private function createModels():Void

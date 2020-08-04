@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+
+    <haxelib name="cf-devkit-hx"/>
+
+    <template path="templates/sa" if="standAlone"/>
+    <template path="templates/web" unless="standAlone"/>
+
+</extension>

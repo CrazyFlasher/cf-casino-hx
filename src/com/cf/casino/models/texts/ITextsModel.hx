@@ -1,6 +1,7 @@
 package com.cf.casino.models.texts;
 
 import com.domwires.core.mvc.model.IModel;
+import com.cf.casino.models.texts.TextsModel;
 
 interface ITextsModel extends ITextsModelImmutable extends IModel
 {

@@ -1,5 +1,6 @@
 package com.cf.slot.context;
 
+import com.cf.devkit.config.IConfig;
 import com.cf.slot.models.win.ISlotWinsModelImmutable;
 import com.cf.slot.models.reels.IReelsModelImmutable;
 import com.cf.slot.models.win.SlotWinsModel;
@@ -63,7 +64,7 @@ class SlotContext extends AbstractCasinoContext implements ICasinoContext
             com.cf.slot.commands.UpdateModelsCommand
         );
 
-        modelFactory.mapToType(ICasinoConfig, SlotConfig);
+        modelFactory.mapToType(IConfig, SlotConfig);
 
         modelFactory.mapToType(SingleWinVo, SlotSingleWinVo);
         modelFactory.mapToType(WinsVo, SlotWinsVo);

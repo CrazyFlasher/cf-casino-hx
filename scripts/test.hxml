@@ -1,6 +1,7 @@
 ## JavaScript
 -main TestMain
 -lib cf-devkit-hx
+-lib munit
 -cp src
 -cp test
 -js build/js_test.js
